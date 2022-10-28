@@ -52,7 +52,7 @@ Para o desenvolvimento foram aplicados conceitos como:
 
   <img alt="CoffeeDelivery" title="#CoffeeDelivery" src="./src/assets/layout/web-cart.png" width="400px">
 
-  <img alt="CoffeeDelivery" title="#CoffeeDelivery" src="./src/assets/web-sending.png" width="400px">
+  <img alt="CoffeeDelivery" title="#CoffeeDelivery" src="./src/assets/layout/web-sending.png" width="400px">
 </p>
 
 ---
