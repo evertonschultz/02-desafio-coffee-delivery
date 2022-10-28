@@ -29,7 +29,7 @@ Para o desenvolvimento foram aplicados conceitos como:
 
 ## 🎨 Layout
 
-### Mobile
+### Web responsivo (mobile)
 
 <p align="center">
   <img alt="CoffeeDelivery" title="#CoffeeDelivery" src="./src/assets/layout/mobile-home.png" width="200px">
@@ -43,7 +43,7 @@ Para o desenvolvimento foram aplicados conceitos como:
   <img alt="CoffeeDelivery" title="#CoffeeDelivery" src="./src/assets/layout/mobile-sending.png" width="200px">
 </p>
 
-### Web
+### Web (desktop)
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="CoffeeDelivery" title="#CoffeeDelivery" src="./src/assets/layout/web-home.png" width="400px">
