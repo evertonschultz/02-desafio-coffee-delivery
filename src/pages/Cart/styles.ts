@@ -6,6 +6,7 @@ export const Container = styled.div`
   display: flex;
 
   max-width: 90rem;
+  height: 100vh;
 `
 
 export const RequestContainer = styled.div`
@@ -231,6 +232,11 @@ export const CartContent = styled.div`
   > img {
     width: 4rem;
     height: 4ren;
+
+    @media (max-width: 520px) {
+    width: 3rem;
+    height: 3rem;
+  }
   }
 `
 

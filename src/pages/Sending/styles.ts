@@ -6,43 +6,43 @@ export const SendingContainer = styled.div`
   display: flex;
 
   padding-top: 8rem;
+  height: 100vh;
+`
+
+export const SendingContent = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+    
+  padding: 2rem;
+  max-width: 74rem;
+  margin: 0 auto;
+
+  > span {
+    font-family: 'Baloo 2';
+    font-weight: 800;
+    font-size: 2rem;
+    color: ${props => props.theme.yellowDark};
+
+    & + span {
+      font-family: 'Roboto';
+      font-weight: 400;
+      font-size: 1.25rem;
+      color: ${props => props.theme.subtitle};
+      margin-bottom: 1.75rem;
+    }
+  }
 
   > div {
-    flex: 1;
     display: flex;
-    flex-direction: column;
-    
-    padding: 2rem;
-    max-width: 74rem;
-    margin: 0 auto;
-
-    > span {
-      font-family: 'Baloo 2';
-      font-weight: 800;
-      font-size: 2rem;
-      color: ${props => props.theme.yellowDark};
-
-      & + span {
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 1.25rem;
-        color: ${props => props.theme.subtitle};
-        margin-bottom: 1.75rem;
-      }
-    }
-
-    > div {
-      display: flex;
-      flex: 1;
-      flex-direction: row;
-      gap: 5.563rem;
-    }
+    flex-direction: row;
+    gap: 5.563rem;
   }
 `
 
 export const ShippingDetails = styled.div`
-  flex: 1;
   display: flex;
+  width: 100%;
   flex-direction: column;
   gap: 2rem;
 
@@ -64,7 +64,6 @@ export const ShippingDetailsContent = styled.div`
 
   > div {
     display: flex;
-    flex: 1;
     flex-direction: column;
   }
 `

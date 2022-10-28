@@ -2,7 +2,7 @@ import { CurrencyDollar, MapPin, Timer } from "phosphor-react"
 import { useContext, useEffect } from "react"
 import { useNavigate } from "react-router-dom"
 import { OrderContext } from "../../contexts/OrderContext"
-import { ButtonToHome, IconWithBackground, ImageContainer, SendingContainer, ShippingDetails, ShippingDetailsContent } from "./styles"
+import { ButtonToHome, IconWithBackground, ImageContainer, SendingContainer, SendingContent, ShippingDetails, ShippingDetailsContent } from "./styles"
 
 export function Sending() {
   const { order } = useContext(OrderContext)
@@ -11,7 +11,7 @@ export function Sending() {
 
   return (
     <SendingContainer>
-      <div>
+      <SendingContent>
         <span>Uhu! Pedido confirmado</span>
         <span>Agora é só aguardar que logo o café chegará até você</span>
 
@@ -59,7 +59,7 @@ export function Sending() {
           </ButtonToHome>
         )}
         
-      </div>
+      </SendingContent>
     </SendingContainer>
   )
 }
